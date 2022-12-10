@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo-name{
+    display: flex;
+}
+/* Icons of hero section on left side ............................. */
+
+.left-sub-section{
+    width: 10%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-sub-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* End of left sub section ........... */
+/* |
+   |
+   |
+   |
+ */
+ /* Main sub section of hero section ..................................... */
+.main-section{
+   width: 80%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* background-color: black; */
+}
+.hero-text{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.illustration{
+    width: 30%;
+    height: 10vh;
+    /* background-color: red; */
+}
+/* End of main sub section ........ */
+
+/* Right sub section of hero section .................................. */
+.right-sub-section{
+    width: 10%;
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical{
+    writing-mode: vertical-lr;
+}
+.hero-section{
+    display: flex;
+}
+/* 
+|
+|
+| end of hero section
+|
+|
+ */
+.all-section-bellow-hero-section{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.centered{
+    width: 80%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+
+/* Abot  Me section ........................ */
+
+.about-me-section{
+   /* background-color: red; */
+   height: 100vh;
+   width: 100%;
+}
+/* tile and image ........... */
+.aboutMe-top-text{}
+.aboutMe-image{
+        width: 30%;
+        border-radius: 5px;
+        border: 1px solid;
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .aboutMe-image img{
+        width: 100%;
+        height: 40vh;
+        border-radius: 10px;
+      }
+      .image-and-decription{
+        display: flex;
+        gap: 20px;
+      }
+/* right part .................. */
+.aboutMe-info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+} /* container........ */
+.aboutMe-info-title{
+    width: 100%;
+    background-color: cyan;
+    
+}
+.aboutMe-info-body{}
+.aboutMe-info-description{
+    display: flex;
+    gap: 10px;
+}
+/* icon and their name , value .. */
+.inner-part-description{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.part-1{
+    /* background-color: black; */
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    width: 10%;
+    height: 6vh;
+    background-color: rgb(8, 0, 0);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.icon-name{
+    width: 25%;
+    height: 6vh;
+    background-color: rgb(173, 22, 22);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.icon-value{
+    width: 65%;
+    height: 6vh;
+    background-color: rgb(223, 203, 203);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.part-2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    gap: 10px;
+}
+
+/* Skills Section .......................... */
+.skills{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(190, 187, 187); 
+    flex-direction: column;
+    gap: 20px;
+}
+.languages {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid white; 
+  }
+  .lang {
+    border: 1px solid white;
+    padding: 0px;
+    font-size: 80px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+  }
